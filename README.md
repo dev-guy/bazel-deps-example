@@ -1,4 +1,7 @@
 ```bash
+$ bazel
+                                                          [bazel release 0.28.1]
+
 $ bazel clean --expunge
 INFO: Starting clean.
 

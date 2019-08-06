@@ -1,5 +1,5 @@
 ```bash
-mbzilla-terris:bazel-deps terris$ bazel clean --expunge
+$ bazel clean --expunge
 INFO: Starting clean.
 
 $ bazel build -s test

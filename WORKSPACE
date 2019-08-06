@@ -3,7 +3,7 @@ load("//tools/workspace:default.bzl", "add_default_repositories")
 add_default_repositories()
 
 load(
-    "@bazel_deps//tools/workspace:default.bzl",
+    "@com_github_mjbots_bazel_deps//tools/workspace:default.bzl",
     bazel_deps_add = "add_default_repositories",
 )
 
@@ -17,4 +17,3 @@ http_archive(
     strip_prefix = "googletest-master",
     url = "https://github.com/google/googletest/archive/master.zip",
 )
-

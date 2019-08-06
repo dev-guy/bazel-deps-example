@@ -2,4 +2,4 @@ load("//tools/workspace/bazel_deps:repository.bzl", "bazel_deps_repository")
 
 def add_default_repositories(excludes = []):
     if "bazel_deps" not in excludes:
-        bazel_deps_repository(name = "bazel_deps")
+        bazel_deps_repository(name = "com_github_mjbots_bazel_deps")

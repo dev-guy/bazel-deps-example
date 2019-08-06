@@ -1,0 +1,10 @@
+# See https://docs.bazel.build/versions/master/user-manual.html
+#
+# import tools/bazel.rc
+
+startup 
+
+# --batch_cpu_scheduling --compiler=clang
+run   --jobs 3 --cxxopt='-std=c++11' --sandbox_debug
+build --jobs 3 --cxxopt='-std=c++11' --sandbox_debug
+test  --jobs 3 --cxxopt='-std=c++11' --sandbox_debug

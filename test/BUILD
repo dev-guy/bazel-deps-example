@@ -1,11 +1,12 @@
 cc_test(
     name = "test",
     srcs = [
-        "one_test.cc"
+        "one_test.cc",
     ],
     deps = [
-        "@com_google_googletest//:gtest_main",
+        "@boost//:filesystem",
         "@boost//:log",
+        "@boost//:system",
+        "@com_google_googletest//:gtest_main",
     ],
 )
-
